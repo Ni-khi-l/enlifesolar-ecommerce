@@ -113,6 +113,7 @@ img{
   margin-left: 50px;
   font-size: 16px;
   font-weight: 400;
+  margin-right: 8px;
 }
 .right-icon {
   margin-right: 5px;
@@ -283,7 +284,6 @@ img{
   background-color: #e5f7f9; 
   color: #4a4a4a; 
   font-family: "Roboto", Arial, sans-serif;
-  height: 100vh;
   text-align: center;
 }
 
@@ -297,7 +297,7 @@ img{
 
 .empowering-communities img {
   padding-top: 1rem;
-  height: 52vh;
+  height: 100%;
   width: auto;
 }
 
@@ -392,7 +392,8 @@ img{
 
 .experience {
   background: linear-gradient(to right, #00b0ac, #00a3ef);
-  height: 20vh;
+  height: auto;
+  padding-bottom: 2.5rem;
   text-align: center;
 }
 .experience .container {
@@ -401,6 +402,8 @@ img{
 }
 .experience h4 {
   padding-left: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 .tab-row {
   padding-left: 1.25rem;
@@ -408,6 +411,10 @@ img{
 .exp-tab {
   text-align: right;
   padding-left: 20px;
+}
+.exp-tab img{
+  width: 55px;
+  height: auto;
 }
 .exp-row {
   margin-top: 45px;
@@ -488,7 +495,8 @@ img{
 }
 .info {
   background: linear-gradient(to left, #00b0ac, #00a3ef);
-  height: 48vh;
+  height: auto;
+  padding-bottom: 2rem;
 }
 .info h1 {
   align-items: center;
@@ -522,7 +530,6 @@ img{
 .projects-showcase .container {
   max-width: 1200px;
   margin: 0 auto;
-  height: 90vh;
 }
 
 .section-title {
@@ -949,6 +956,9 @@ form {
   .navbar-collapse {
     padding-bottom: 20px;
   }
+  .header-contact li a{
+    margin-right: 4px;
+  }
   .hero-section h1 {
     font-size: 2rem;
   }
@@ -960,7 +970,8 @@ form {
     font-size: 1rem;
   }
   .service-page {
-    height: 35vh;
+    height: auto;
+    padding-bottom: 1.5rem;
   }
   .service-head {
     font-size: 1.5rem;
@@ -1000,8 +1011,8 @@ form {
     font-size: 1.2rem;
   }
   .empowering-communities {
-    height: 75vh;
-    padding-bottom: 0;
+    height: auto;
+    padding-bottom: 6rem;
   }
   .empowering-communities h2 {
     font-size: 1.25rem;
@@ -1041,7 +1052,8 @@ form {
     font-size: 18px;
   }
   .experience {
-    height: 28vh;
+    height: auto;
+    padding-bottom: 2rem;
   }
   .speciality-item {
     /* display: flex; */
@@ -1049,7 +1061,9 @@ form {
   }
  
    .info{
-    height: 35vh;
+    height: auto;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
    }
   .info img {
     margin-top: 3rem;
@@ -1068,9 +1082,11 @@ form {
     line-height: 1.5rem;
   }
 .projects-showcase{
-  height: 70vh;
+  height: auto;
+  padding-bottom: 2rem;
 }
   .section-title {
+    padding-top: 1rem;
     font-size: 1.5rem;
   }
   .section-description {
@@ -1143,6 +1159,7 @@ form {
   }
   .header-contact li a {
     font-size: 13.5px;
+    margin-right: 4px;
   }
   .header-contact {
     padding-left: 0;
@@ -1160,7 +1177,9 @@ form {
     font-size: 1rem;
   }
   .service-page {
-    height: 25vh;
+    height: auto;
+    padding-top: 1.25rem;
+    padding-bottom: 1.2rem;
   }
   .service-page .container {
     margin-top: 0;
@@ -1170,8 +1189,8 @@ form {
     padding-top: 2rem;
   }
   .empowering-communities {
-    height: 78vh;
-    padding-top: 2rem;
+    height: auto;
+    padding-top: 2rem;padding-bottom: 6rem;
   }
   .empowering-communities h1 {
     font-size: 1.5rem;
@@ -1201,7 +1220,9 @@ form {
     padding: 0.5rem 1rem;
   }
   .experience {
-    height: 28vh;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
   }
   .experience .container {
     display: grid;
@@ -1249,12 +1270,14 @@ form {
     margin-bottom: 1rem;
   }
   .info {
-    height: 55vh;
+    height: auto;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
   }
   .info img {
     height: 30vh;
     width: auto;
-    margin-left: 13%;
+    margin-left: 20%;
   }
   .info h1 {
     font-size: 1.25rem;
@@ -1270,7 +1293,9 @@ form {
   
 
   .projects-showcase {
-    height: 80vh;
+    height: auto;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
   }
   .section-title {
 
@@ -1288,7 +1313,7 @@ form {
     display: none;
   }
   .project-second-line-left {
-    margin-left: 9rem;
+    margin-left: 26%;
   }
   .section-title-test {
     font-size: 1.5rem;
@@ -1360,8 +1385,16 @@ form {
 
     font-size: 1rem;
   }
+  .header-contact{
+    text-align: right;
+    font-size: 0.2rem;
+    padding-left: 0;
+    
+  }
+ 
  .service-page{
-  height: 28vh;
+  height: auto;
+  padding-bottom: 1.5rem;
  }
  .service-head{
   font-size: 1.5rem;
@@ -1370,7 +1403,11 @@ form {
   right:20%;
  }
  .empowering-communities{
-  height:88vh;
+  height:auto;
+  padding-bottom: 4rem;
+ }
+ .empowering-communities .container{
+  padding-bottom: 2rem;
  }
  .empowering-communities h1{
   font-size: 1.5rem;
@@ -1387,7 +1424,9 @@ form {
   font-size: 1rem;
  }
  .experience{
-  height: 48vh;
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
  }
 
  .exp-tab img{
@@ -1396,6 +1435,7 @@ form {
  }
  .speciality{
   padding-top: 3rem;
+  padding-bottom: 2rem;
  }
  .speciality-head{
   font-size: 1.5rem;
@@ -1405,8 +1445,10 @@ form {
   font-size: 1.25rem;
  }
  .info{
-  height: 55vh ;
+  height: auto ;
   max-width: none;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
  }
  .info h1{
   padding-top: 2.5rem;
@@ -1420,17 +1462,16 @@ form {
   padding: 0rem 0.5rem;
  }
  .projects-showcase{
-  height: 50vh;
-
+  padding-top: 2rem;
+  height: auto;
+  padding-bottom: 2rem;
  }
+ 
  .section-title{
   font-size: 1.5rem;
   padding-top: 1.25rem;
  }
- .projects-showcase{
- 
-  height: 150vh;
- }
+
 .section-title-test{
   font-size: 1.5rem;
 }
