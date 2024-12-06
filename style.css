@@ -82,6 +82,12 @@ img{
   background-color: #ffffff;
 }
 
+.container-fluid{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .social-media {
   list-style: none;
   padding: 0;
@@ -884,6 +890,8 @@ form {
 }
 .footer-column img {
   margin-top: 2.5rem;
+  height: 40px;
+  width: auto;
 }
 
 .footer-column h3 {
@@ -952,7 +960,7 @@ form {
     font-size: 1rem;
   }
   .service-page {
-    height: 50vh;
+    height: 35vh;
   }
   .service-head {
     font-size: 1.5rem;
@@ -992,7 +1000,7 @@ form {
     font-size: 1.2rem;
   }
   .empowering-communities {
-    height: 108vh;
+    height: 75vh;
     padding-bottom: 0;
   }
   .empowering-communities h2 {
@@ -1020,6 +1028,7 @@ form {
   .tab-row {
     padding-left: 2rem;
   }
+ 
   .exp-tab {
     padding-left: 2.5rem;
   }
@@ -1032,22 +1041,20 @@ form {
     font-size: 18px;
   }
   .experience {
-    height: 38vh;
+    height: 28vh;
   }
   .speciality-item {
     /* display: flex; */
     align-items: center;
   }
-  .speciality-left {
-    margin-left: 50px;
-  }
-  .speciality-right {
-    margin-right: 50px;
-  }
+ 
+   .info{
+    height: 35vh;
+   }
   .info img {
     margin-top: 3rem;
     margin-right: 6rem;
-    height: 35vh;
+    height: 25vh;
     width: auto;
   }
   .info h1 {
@@ -1060,7 +1067,9 @@ form {
     padding-top: 1rem;
     line-height: 1.5rem;
   }
-
+.projects-showcase{
+  height: 70vh;
+}
   .section-title {
     font-size: 1.5rem;
   }
@@ -1151,7 +1160,7 @@ form {
     font-size: 1rem;
   }
   .service-page {
-    height: 42vh;
+    height: 25vh;
   }
   .service-page .container {
     margin-top: 0;
@@ -1161,7 +1170,7 @@ form {
     padding-top: 2rem;
   }
   .empowering-communities {
-    height: 105vh;
+    height: 78vh;
     padding-top: 2rem;
   }
   .empowering-communities h1 {
@@ -1192,7 +1201,7 @@ form {
     padding: 0.5rem 1rem;
   }
   .experience {
-    height: 42vh;
+    height: 28vh;
   }
   .experience .container {
     display: grid;
@@ -1240,12 +1249,12 @@ form {
     margin-bottom: 1rem;
   }
   .info {
-    height: 62vh;
+    height: 55vh;
   }
   .info img {
     height: 30vh;
     width: auto;
-    margin-left: 20%;
+    margin-left: 13%;
   }
   .info h1 {
     font-size: 1.25rem;
@@ -1261,7 +1270,7 @@ form {
   
 
   .projects-showcase {
-    height: 110vh;
+    height: 80vh;
   }
   .section-title {
 
