@@ -1362,6 +1362,10 @@ form {
 }
 
 @media screen and (max-width: 575.98px){
+  .top-icon{
+    padding: 0;
+    margin-right: 10px;
+  }
   .navbar-collapse {
     padding-bottom: 20px;
   }
