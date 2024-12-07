@@ -1391,11 +1391,25 @@ form {
     padding-left: 0;
     
   }
- 
+ .btn-primary.btn-cta{
+  /* padding: 0; */
+  font-size: 14px;
+ }
+ .supportive-button{
+  font-size: 14px;
+ }
  .service-page{
   height: auto;
   padding-bottom: 1.5rem;
  }
+ .card-title{
+  padding-left: 1rem;
+  margin-bottom: 0;
+ }
+ .card-text{
+  padding-left: 1rem;
+ }
+
  .service-head{
   font-size: 1.5rem;
  }
@@ -1404,6 +1418,7 @@ form {
  }
  .empowering-communities{
   height:auto;
+  padding-top: 1rem;
   padding-bottom: 4rem;
  }
  .empowering-communities .container{
@@ -1426,7 +1441,10 @@ form {
  .experience{
   height: auto;
   padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3.5rem;
+ }
+ .experience h4{
+  padding-left: 2rem;
  }
 
  .exp-tab img{
@@ -1466,7 +1484,29 @@ form {
   height: auto;
   padding-bottom: 2rem;
  }
+
+ .project-column{
+  padding: 0;
+  margin: 0;
  
+ }
+
+.project-card{
+  width: 270px;
+  height: auto;
+  padding: 0;
+  margin-top: 16px;
+ 
+
+}
+.project-second-line-left, .project-second-line-right{
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+.section-description{
+  margin-bottom: 1.25rem;
+}
  .section-title{
   font-size: 1.5rem;
   padding-top: 1.25rem;
@@ -1475,17 +1515,30 @@ form {
 .section-title-test{
   font-size: 1.5rem;
 }
+
+.test-column{
+  margin-left: 1rem;
+}
 .test-column{
   padding-left: 1.5rem;
 }
  .form-section .container{
   padding: 0;
  }
+ .text-center2 h2{
+  font-size: 1.5rem;
+ }
+ .text-center2 p{
+  font-size: 1rem;
+ }
+ .form-part h4{
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+ }
  .footer img{
   height: 50px;
   width: auto;
   margin-top: 1rem;
-  padding-left: 3.2rem;
  }
  .footer-column h3{
   padding-top: 1.5rem;
