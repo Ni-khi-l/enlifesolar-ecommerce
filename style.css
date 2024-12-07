@@ -1394,9 +1394,12 @@ form {
  .btn-primary.btn-cta{
   /* padding: 0; */
   font-size: 14px;
+  padding: 0.5rem 1rem;
  }
  .supportive-button{
   font-size: 14px;
+  padding: 0.5rem 0.8rem;
+
  }
  .service-page{
   height: auto;
@@ -1414,7 +1417,7 @@ form {
   font-size: 1.5rem;
  }
  .supportive-button{
-  right:20%;
+  right:10%;
  }
  .empowering-communities{
   height:auto;
